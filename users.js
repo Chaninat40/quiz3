@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/Quiz2";
+var url = "mongodb://localhost:27017/quiz2";
 var db;
 MongoClient.connect(url, function (err, database) {
     if (err) throw err;
